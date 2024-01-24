@@ -3,7 +3,7 @@ from fake_headers import Headers
 import bs4
 import json
 
-headers = Headers(browser="firefox", os="win")
+headers = Headers(browser="Chrome", os="win")
 headers_data = headers.generate()
 
 filter_keywords = ["Django", "Flask"]
